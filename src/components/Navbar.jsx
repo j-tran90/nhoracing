@@ -4,112 +4,84 @@ import "../stylesheets/Navbar.css";
 function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light pb-4">
-        <div className="container navbar-custom">
-          <a className="navbar-brand" href="/home">
-            <img src="./src/assets/logo5.png" alt="" />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav ms-auto">
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle active"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Projects
-                </a>
-                <ul
-                  className="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="https://glamorous-tan-slacks.cyclic.app/"
-                    >
-                      CourierTek
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Sea Shell
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Porsche Fanpage
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Tix
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <a className="nav-link" href="/#skills">
-                Skills
-              </a>
-              <a className="nav-link" href="/#about">
-                About
-              </a>
-              <a className="nav-link" href="/contact">
-                Contact
-              </a>
-              <a className="nav-link px-2" href="https://github.com/j-tran90">
+      <div className="container-fluid parent-div">
+        <div className="container-fluid child-div gradient1">
+          <div className="container">
+            <nav className="navbar navbar-expand-lg navbar-dark">
+              <a className="navbar-brand" href="/">
                 <img
-                  className="socials"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                />
+                  src="src\assets\Nho_Banner_Logo.png"
+                  className="logo"
+                ></img>
               </a>
-              <a
-                className="nav-link px-2"
-                href="https://www.linkedin.com/in/john-tran-486ab6235/"
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
               >
-                <img
-                  className="socials"
-                  src="
-                  https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-                />
-              </a>
-            </div>
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="navbar-nav ms-auto">
+                  <li className="nav-item dropdown">
+                    <a
+                      className="nav-link dropdown-toggle active"
+                      href="#"
+                      id="navbarDropdownMenuLink"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Gallery
+                    </a>
+                    <ul
+                      className="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenuLink"
+                    >
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="https://glamorous-tan-slacks.cyclic.app/"
+                        >
+                          holding1
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          holding2
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          holding3
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          holding4
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <a className="nav-link" href="http://nhoracing.com/">
+                    Shop
+                  </a>
+                  <a className="nav-link" href="/">
+                    About
+                  </a>
+                  <a className="nav-link" href="/">
+                    Contact
+                  </a>
+                </div>
+              </div>
+            </nav>
           </div>
-          <a
-            className="nav-link px-3 d-none"
-            href="https://github.com/j-tran90"
-          >
-            <img
-              className="socials"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            />
-          </a>
-          <a
-            className="nav-link px-3 d-none"
-            href="https://www.linkedin.com/in/john-tran-486ab6235/"
-          >
-            <img
-              className="socials"
-              src="
-                  https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-            />
-          </a>
         </div>
-      </nav>
+      </div>
     </>
   );
 }

@@ -5,7 +5,6 @@ import Skills from "../pages/Skills";
 import Contact from "../pages/Contact";
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Couriertek from "../pages/Couriertek";
 
 const RouteSwitch = () => {
   return (
@@ -19,7 +18,6 @@ const RouteSwitch = () => {
             <Route path="/skills" element={<Skills />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/couriertek" element={<Couriertek />} />
           </Routes>
         </main>
         <Footer />

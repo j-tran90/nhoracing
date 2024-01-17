@@ -1,38 +1,59 @@
+import "../stylesheets/Footer.css";
+
 function Footer() {
   return (
     <>
-      <div className="container-fluid bg-light border-top">
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 container">
-          <p className="col-md-4 mb-0 text-muted">© 2023 John Tran</p>
+      <div className="container-fluid bg-dark">
+        <div className="container footer-nav bg-dark">
+          <div className="row">
+            <div className="col-sm-2">
+              <a className="navbar-brand" href="/">
+                <img
+                  src="src\assets\Nho_Banner_Logo.png"
+                  className="logo"
+                ></img>
+              </a>
+            </div>
+            <div className="col-sm-2">
+              <h3 className="text-white">Explore</h3>
+              <a href="#" className="nav-link">
+                Gallery
+              </a>
+              <a href="#" className="nav-link">
+                Shop
+              </a>
+              <a href="#" className="nav-link">
+                About
+              </a>
+              <a href="#" className="nav-link">
+                Privacy Policy
+              </a>
+            </div>
+            <div className="col-sm-4">
+              <h3 className="text-white">Contact</h3>
+              We have multiple ways for you to reach us and we want to start
+              working with you.
+            </div>
+            <div className="col-sm-4">
+              <a href="#">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
+                  className="socials-footer"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
+                  className="socials-footer"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
 
-          <a
-            href="/"
-            className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
-          ></a>
-
-          <ul className="nav col-md-4 justify-content-end">
-            <li className="nav-item">
-              <a href="/" className="nav-link px-2 text-muted">
-                Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/skills" className="nav-link px-2 text-muted">
-                Skills
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/about" className="nav-link px-2 text-muted">
-                About Me
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/contact" className="nav-link px-2 text-muted">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </footer>
+        <div className="container-fluid footer bg-dark">
+          &copy; 2022 Nho Racing. All Rights Reserved.
+        </div>
       </div>
     </>
   );

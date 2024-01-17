@@ -1,6 +1,10 @@
 #root {
   margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  background-color: #000000;
 }
+
 * {
   border: 0px solid red;
 }
@@ -12,4 +16,20 @@ main {
 
 html {
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.parent-div {
+  position: relative;
+  z-index: 2;
+}
+
+.child-div {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  padding: 0;
 }

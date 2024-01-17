@@ -10,12 +10,8 @@ function Home() {
       <div id="projects">
         <ProjectCards />
       </div>
-      <div id="skills">
-        <Skills />
-      </div>
-      <div id="about">
-        <About />
-      </div>
+      <div id="skills"></div>
+      <div id="about"></div>
     </>
   );
 }

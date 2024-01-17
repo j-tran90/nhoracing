@@ -1,0 +1,15 @@
+.footer {
+  font-size: 80%;
+  border-top: 1px solid rgba(255, 255, 255, 0.425);
+  padding: 1em;
+}
+
+.socials-footer {
+  height: 70px;
+  padding: 10px;
+}
+
+.footer-nav {
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
