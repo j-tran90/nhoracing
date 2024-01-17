@@ -5,10 +5,10 @@ export default function Hero() {
     <>
       <div className="hero-image">
         <div className="container">
-          <p className="hero-section">
+          <div className="hero-section">
             <h1 className="display-1">Nissan Skyline R32 - Godzilla</h1>
             testing
-          </p>
+          </div>
         </div>
       </div>
     </>
