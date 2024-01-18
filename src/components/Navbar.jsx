@@ -5,12 +5,12 @@ function NavBar() {
   return (
     <>
       <div className="container-fluid parent-div">
-        <div className="container-fluid child-div gradient1">
+        <div className="container-fluid child-div gradient-down">
           <div className="container">
             <nav className="navbar navbar-expand-lg navbar-dark">
               <a className="navbar-brand" href="/">
                 <img
-                  src="src\assets\Nho_Banner_Logo.png"
+                  src="src\assets\nho_banner_white.png"
                   className="logo"
                 ></img>
               </a>

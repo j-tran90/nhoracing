@@ -1,17 +1,13 @@
 import Hero from "../components/Hero";
-import ProjectCards from "../components/Projectcards";
-import Skills from "./Skills";
-import About from "./About";
+import Cards from "../components/Cards";
 
 function Home() {
   return (
     <>
       <Hero />
       <div id="projects">
-        <ProjectCards />
+        <Cards />
       </div>
-      <div id="skills"></div>
-      <div id="about"></div>
     </>
   );
 }

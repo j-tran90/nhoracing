@@ -9,7 +9,7 @@ function Footer() {
             <div className="col-sm-2">
               <a className="navbar-brand" href="/">
                 <img
-                  src="src\assets\Nho_Banner_Logo.png"
+                  src="src\assets\nho_banner_white.png"
                   className="logo"
                 ></img>
               </a>
