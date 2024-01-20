@@ -5,7 +5,7 @@ function Cards() {
     <>
       <div className="grid container-fluid">
         <div className="row row-cols-xl-4">
-          <div className="col col-md-6">
+          <div className="col cols-md-6">
             <figure className="effect-oscar">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/Brian's%20R32-3.jpg?alt=media&token=67fa3bde-e1dc-4561-aeab-03c8388a923b"
@@ -23,7 +23,7 @@ function Cards() {
               </figcaption>
             </figure>
           </div>
-          <div className="col col-md-6">
+          <div className="col">
             <figure className="effect-oscar">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/Brian%20Nho's%20R32-9.jpg?alt=media&token=546d0155-b58f-4528-a12e-1257908b0205"
@@ -45,7 +45,7 @@ function Cards() {
               </figcaption>
             </figure>
           </div>
-          <div className="col col-md-6">
+          <div className="col">
             <figure className="effect-oscar">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/Brian%20Nho's%20R32-25.jpg?alt=media&token=21b3abdc-0de0-43f2-bce5-3a6c0e41ed73"
@@ -65,7 +65,7 @@ function Cards() {
               </figcaption>
             </figure>
           </div>
-          <div className="col col-md-6">
+          <div className="col">
             <figure className="effect-oscar">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/Brian's%20R32-21.jpg?alt=media&token=f034fa55-54c1-4a31-9fc2-d27d1fd08f83"
