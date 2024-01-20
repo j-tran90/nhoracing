@@ -1,5 +1,6 @@
 import "../stylesheets/Navbar.css";
-//import Link from "react-router-dom";
+import Navlink from "./Navlink";
+import Socials from "./Socials";
 
 function NavBar() {
   return (
@@ -10,7 +11,7 @@ function NavBar() {
             <nav className="navbar navbar-expand-lg navbar-dark">
               <a className="navbar-brand" href="/">
                 <img
-                  src="src\assets\nho_banner_white.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/nho_banner_white.png?alt=media&token=92728c58-a438-49ad-99c2-598d4558bb5d"
                   className="logo"
                 ></img>
               </a>
@@ -27,30 +28,8 @@ function NavBar() {
               </button>
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ms-auto">
-                  <a className="nav-link active" href="/">
-                    Gallery
-                  </a>
-                  <a className="nav-link active" href="http://nhoracing.com/">
-                    Shop
-                  </a>
-                  <a href="https://www.instagram.com/azn_renegade/?hl=en">
-                    <box-icon
-                      name="instagram"
-                      type="logo"
-                      color="#d81f28"
-                      size="md"
-                      animation="tada-hover"
-                    ></box-icon>
-                  </a>
-                  <a href="https://www.tiktok.com/@azn_renegade">
-                    <box-icon
-                      name="tiktok"
-                      type="logo"
-                      color="#d81f28"
-                      size="md"
-                      animation="tada-hover"
-                    ></box-icon>
-                  </a>
+                  <Navlink />
+                  <Socials />
                 </div>
               </div>
             </nav>

@@ -62,3 +62,16 @@ a {
     rgba(0, 0, 0, 0.952) 70%
   );
 }
+
+.socials {
+  font-size: 50px;
+  padding-left: 10px;
+  color: #d81f28;
+}
+
+@media only screen and (max-width: 600px) {
+  .socials {
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+}

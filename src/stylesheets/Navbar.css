@@ -8,18 +8,8 @@
   width: 8rem;
 }
 
-.socials {
-  height: 30px;
-  padding-left: 20px;
-  color: white;
-}
-
 @media only screen and (max-width: 600px) {
   .navbar-custom {
     padding-top: 1em;
-  }
-  .socials {
-    padding-top: 10px;
-    padding-left: 0px;
   }
 }
