@@ -9,13 +9,6 @@ export default function Hero() {
           <div className="container-fluid gradient-up"></div>
         </div>
       </div>
-      {/* <div className="container short-spec">
-        <div className="pt-3 pb-3 row">
-          <div className="col text-center display-6">200 hp</div>
-          <div className="col text-center display-6">200 KM</div>
-          <div className="col text-center display-6">2.0 s</div>
-        </div>
-      </div> */}
     </>
   );
 }

@@ -4,7 +4,6 @@ function Cards() {
   return (
     <>
       <div className="grid container-fluid">
-        <div className="container display-1 text-center"></div>
         <div className="row row-cols-xl-4">
           <div className="col col-md-6">
             <figure className="effect-oscar">

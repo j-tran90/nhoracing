@@ -11,12 +11,6 @@
       format("svg");
 }
 
-@media only screen and (max-width: 700px) {
-  h2 {
-    font-size: 25px;
-  }
-}
-
 div.col {
   padding: 0;
 }
@@ -93,11 +87,6 @@ div.col {
   margin: 0;
 }
 
-.grid figure p {
-  letter-spacing: 1px;
-  font-size: 68.5%;
-}
-
 /* Individual effects */
 
 figure.effect-oscar {
@@ -168,4 +157,54 @@ figure.effect-oscar:hover figcaption {
 
 figure.effect-oscar:hover img {
   opacity: 0.4;
+}
+
+@media only screen and (min-width: 1800px) {
+  h2 {
+    font-size: 45px;
+  }
+  .grid figure p {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1799px) {
+  h2 {
+    font-size: 35px;
+  }
+  .grid figure p {
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1499px) {
+  h2 {
+    font-size: 15px;
+  }
+  .grid figure p {
+    letter-spacing: 1px;
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  h2 {
+    font-size: 35px;
+  }
+  .grid figure p {
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 35px;
+  }
+  .grid figure p {
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
 }
