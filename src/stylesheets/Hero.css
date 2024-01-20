@@ -7,9 +7,41 @@
 }
 
 .hero-section {
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 200px;
+  font-weight: bolder;
   position: absolute;
-  top: 50vh;
+  top: 40vh;
   z-index: 5;
   padding: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  .hero-section {
+    top: 40vh;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 170px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-section {
+    top: 50vh;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 100px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hero-section {
+    top: 55vh;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 40px;
+    text-align: center;
+  }
+  .short-spec {
+    display: none;
+  }
 }

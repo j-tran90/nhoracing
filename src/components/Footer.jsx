@@ -10,11 +10,11 @@ function Footer() {
               <a className="navbar-brand" href="/">
                 <img
                   src="src\assets\nho_banner_white.png"
-                  className="logo"
+                  className="logo col-padding"
                 ></img>
               </a>
             </div>
-            <div className="col-sm-2">
+            <div className="col-sm-2 col-padding">
               <h3 className="text-white">Explore</h3>
               <a href="#" className="nav-link">
                 Gallery
@@ -23,29 +23,28 @@ function Footer() {
                 Shop
               </a>
               <a href="#" className="nav-link">
-                About
-              </a>
-              <a href="#" className="nav-link">
                 Privacy Policy
               </a>
             </div>
+
             <div className="col-sm-4">
-              <h3 className="text-white">Contact</h3>
-              We have multiple ways for you to reach us and we want to start
-              working with you.
-            </div>
-            <div className="col-sm-4">
-              <a href="#">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
-                  className="socials-footer"
-                />
+              <a href="https://www.instagram.com/azn_renegade/?hl=en">
+                <box-icon
+                  name="instagram"
+                  type="logo"
+                  color="#d81f28"
+                  size="lg"
+                  animation="tada-hover"
+                ></box-icon>
               </a>
-              <a href="#">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
-                  className="socials-footer"
-                />
+              <a href="https://www.tiktok.com/@azn_renegade">
+                <box-icon
+                  name="tiktok"
+                  type="logo"
+                  color="#d81f28"
+                  size="lg"
+                  animation="tada-hover"
+                ></box-icon>
               </a>
             </div>
           </div>

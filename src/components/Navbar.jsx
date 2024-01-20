@@ -1,5 +1,6 @@
 import "../stylesheets/Navbar.css";
 //import Link from "react-router-dom";
+import "boxicons";
 
 function NavBar() {
   return (
@@ -27,54 +28,29 @@ function NavBar() {
               </button>
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ms-auto">
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle active"
-                      href="#"
-                      id="navbarDropdownMenuLink"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Gallery
-                    </a>
-                    <ul
-                      className="dropdown-menu"
-                      aria-labelledby="navbarDropdownMenuLink"
-                    >
-                      <li>
-                        <a
-                          className="dropdown-item"
-                          href="https://glamorous-tan-slacks.cyclic.app/"
-                        >
-                          holding1
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          holding2
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          holding3
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          holding4
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <a className="nav-link" href="http://nhoracing.com/">
+                  <a className="nav-link active" href="/">
+                    Gallery
+                  </a>
+                  <a className="nav-link active" href="http://nhoracing.com/">
                     Shop
                   </a>
-                  <a className="nav-link" href="/">
-                    About
+                  <a href="https://www.instagram.com/azn_renegade/?hl=en">
+                    <box-icon
+                      name="instagram"
+                      type="logo"
+                      color="#d81f28"
+                      size="md"
+                      animation="tada-hover"
+                    ></box-icon>
                   </a>
-                  <a className="nav-link" href="/">
-                    Contact
+                  <a href="https://www.tiktok.com/@azn_renegade">
+                    <box-icon
+                      name="tiktok"
+                      type="logo"
+                      color="#d81f28"
+                      size="md"
+                      animation="tada-hover"
+                    ></box-icon>
                   </a>
                 </div>
               </div>
