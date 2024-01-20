@@ -6,6 +6,16 @@
 .logo {
   height: auto;
   width: 8rem;
+  margin-left: 20px;
+}
+
+.navbar-toggler {
+  margin-right: 20px;
+}
+
+.nav-dropdown-bg {
+  background-color: rgba(0, 0, 0, 0.678);
+  padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {

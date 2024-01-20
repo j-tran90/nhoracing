@@ -26,6 +26,7 @@ function Cards() {
           <div className="col">
             <figure className="effect-oscar">
               <img
+                loading="lazy"
                 src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/Brian%20Nho's%20R32-9.jpg?alt=media&token=546d0155-b58f-4528-a12e-1257908b0205"
                 alt="img09"
                 className=""
