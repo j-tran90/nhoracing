@@ -16,18 +16,18 @@
   padding: 0;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1480px) {
   .hero-section {
-    top: 40vh;
+    top: 45vh;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 170px;
+    font-size: 150px;
     text-align: center;
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .hero-section {
-    top: 50vh;
+    top: 45vh;
     color: rgba(255, 255, 255, 0.5);
     font-size: 100px;
     text-align: center;
@@ -41,8 +41,5 @@
     font-size: 50px;
     text-align: center;
     text-overflow: clip;
-  }
-  .short-spec {
-    display: none;
   }
 }

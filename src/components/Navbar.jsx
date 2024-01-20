@@ -7,7 +7,7 @@ function NavBar() {
     <>
       <div className="container-fluid parent-div">
         <div className="container-fluid child-div gradient-down p-0">
-          <nav className="navbar navbar-expand-lg navbar-dark">
+          <nav className="container navbar navbar-expand-lg navbar-dark">
             <a className="navbar-brand" href="/">
               <img
                 loading="lazy"
