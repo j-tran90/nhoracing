@@ -7,19 +7,19 @@
 }
 
 .hero-section {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.226);
   font-size: 200px;
   font-weight: bolder;
   position: absolute;
   top: 40vh;
   z-index: 5;
-  padding: 0;
+  left: 0;
 }
 
 @media only screen and (max-width: 1480px) {
   .hero-section {
     top: 45vh;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.486);
     font-size: 150px;
     text-align: center;
   }
@@ -28,7 +28,7 @@
 @media only screen and (max-width: 1199px) {
   .hero-section {
     top: 45vh;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.507);
     font-size: 100px;
     text-align: center;
   }
@@ -37,9 +37,8 @@
 @media only screen and (max-width: 700px) {
   .hero-section {
     top: 55vh;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.226);
     font-size: 50px;
-    text-align: center;
-    text-overflow: clip;
+    display: none;
   }
 }
