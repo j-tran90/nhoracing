@@ -15,11 +15,6 @@ div.col {
   padding: 0;
 }
 
-.crop {
-  max-height: 500px;
-  min-width: 320px;
-}
-
 /* Common style */
 .grid figure {
   position: relative;

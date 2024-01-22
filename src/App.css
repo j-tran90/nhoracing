@@ -24,12 +24,12 @@ a {
 
 .parent-div {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .child-div {
   position: absolute;
-  z-index: 10;
+  z-index: 2;
   left: 0;
   padding: 0;
 }
