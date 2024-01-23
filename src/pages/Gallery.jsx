@@ -7,7 +7,7 @@ export default function Gallery() {
         <div className="container-fluid hero-section text-center">GALLERY</div>
         <div className="container-fluid gradient-up"></div>
       </div>
-      {/* <div className="container" id="gallery">
+      <div className="container" id="gallery">
         <div className="row row-cols-md-2 row-cols-lg-4">
           <div className="col4 brighten">
             <img
@@ -33,8 +33,8 @@ export default function Gallery() {
               className="crop responsive"
             />
           </div>
-        </div> */}
-      {/* <div className="row row-cols-md-2 row-cols-lg-4">
+        </div>
+        <div className="row row-cols-md-2 row-cols-lg-4">
           <div className="col4 brighten">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/auth-development-ae591.appspot.com/o/IMG_0586.jpg?alt=media&token=49c92ee9-b1b8-4b30-b0bd-5440546608bb"
@@ -111,7 +111,8 @@ export default function Gallery() {
               className="crop responsive"
             />
           </div>
-        </div>       </div>*/}
+        </div>{" "}
+      </div>
     </>
   );
 }
